@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.nav{
+    height: 130px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 140px;
+    gap: 200px;
+    z-index: 100;
+}
+
+.nav img{
+    height: 80px;
+    object-fit: cover;
+}
+
+.inner-nav{
+    height: 50px;
+    width: 40%;
+    background-color: #FFAE59;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 1.1vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav i{
+    display: none;
+}
+
+.inner-nav h4{
+    font-weight: 500;
+}
+
+.inner-nav a:hover{
+    color: white;
+}
+
+.content{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .left{
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 140px;
+}
+
+.content .right{
+    height: 100%;
+    width: 60%;
+    /* background-color: blueviolet; */
+}
+
+.content .left h1{
+    font-size: 5.2vw;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 70px;
+}
+
+#bold{
+    font-weight: 900;
+}
+
+.content .left p{
+    width: 90%;
+    margin-top: 40px;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+    line-height: 25px;
+}
+
+.content .left button{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    border: none;
+    background-color: #FF9A30;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2vw;
+    transition: all ease 0.3s;
+}
+
+.content .left button a{
+    color: white;
+}
+
+.content .left button:hover{
+    background-color: rgba(255, 175, 89, 0.852)
+}
+
+.content .left button:hover{
+    cursor: pointer;
+}
+
+.content .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.circle{
+    height: 600px;
+    width: 600px;
+    background-color: #FF9A30;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -30%;
+    left: -20%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 110px;
+    padding-left: 240px;
+    transform: rotate(-10deg);
+}
+
+.circle h1{
+    font-size: 7vw;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -30px;
+}
+
+.circle h4{
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -10px;
+    font-weight: 300;
+}
+
+#off{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer{
+    height: calc(100vh - 80%);
+    width: 100%;
+    background-color: #FFD457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .left{
+    height: 100%;
+    width: 50%;
+    /* background-color: #FFD457; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer .left .inner-right{
+    height: 100%;
+    width: 50%;
+    background-color: #FFD457;
+    padding: 20px 60px;
+}
+
+.footer .right{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .right .inner-left{
+    height: 100%;
+    width: 50%;
+    background-color: #FFC823;
+    padding: 20px 60px;
+}
+
+.footer .right .inner-right{
+    height: 100%;
+    width: 50%;
+    background-color: #FFAD23;
+    padding: 20px 60px;
+}
+
+.footer h4{
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.footer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1vw;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}

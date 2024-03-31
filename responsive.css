@@ -1,0 +1,141 @@
+@media(max-width: 600px){
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        position: relative;
+    }
+
+    .nav{
+        height: 100px;
+        justify-content: space-between;
+        padding-left: 0;
+        gap: 0;
+        padding: 0 20px;
+    }
+
+    .inner-nav{
+        display: none;
+    }
+
+    .nav img{
+        height: 50px;
+    }
+
+    .nav i{
+        display: initial;
+        font-size: 5vw;
+    }
+
+    .content{
+        height: 80%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content .left{
+        height: 50%;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 120px;
+    }
+
+    .content .left h1{
+        font-size: 10vw;
+        /* text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal; */
+        line-height: 40px;
+    }
+
+    .content .left p{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 3vw;
+        /* font-family: "Poppins", sans-serif; */
+        line-height: 15px;
+    }
+
+    .content .left button{
+        height: 30px;
+        width: 80px;
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+
+    .content .right{
+        height: 50%;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .circle{
+        height: 250px;
+        width: 250px;
+        bottom: -3%;
+        left: -25%;
+        background-color: #ff9b30a9;
+        padding-top: 60px;
+        padding-left: 100px;
+        transform: rotate(-10deg);
+    }
+
+    .circle h1{
+        font-size: 10vw;
+        margin-bottom: -15px;
+    }
+
+    .circle h4{
+        font-size: 3.3vw;
+        margin-bottom: -5px;
+    }
+
+    #off{
+        font-size: 6vw;
+    }
+
+    .footer{
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer .left .inner-right{
+        padding: 0;
+        padding-left: 40px;
+        padding-top: 5px;
+    }
+
+    .footer .right .inner-left{
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .footer .right .inner-right{
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .footer h4{
+        font-size: 3vw;
+    }
+
+    .footer p{
+        font-size: 2vw;
+        line-height: 10px;
+        margin-bottom: 0;
+    }
+
+    .footer a{
+        font-size: 2.5vw;
+    }
+}
